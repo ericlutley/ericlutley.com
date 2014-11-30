@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+@import "vendor/normalize";
+@import "compass";
+@import "susy";
+
+.menu-container {
+  @include container(520px);
+  padding: 10px;
+}
+
+#menu {
+  border: 1px solid;
+  font-family: "Lucida Console", Monaco, monospace;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  .drink {
+    margin-top: 30px;
+
+    .description {
+      font-size: 75%;
+    }
+  }
+}
