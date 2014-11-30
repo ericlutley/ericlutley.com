@@ -1,0 +1,31 @@
+jack_rose:
+  name: Jack Rose
+  ingredients:
+    - Applejack
+    - grenadine
+    - lime
+  description: >
+    A cocktail popular in the 20's and 30's,
+    notably featured in Hemmingway's 1926 classic
+    "The Sun Also Rises".
+
+last_word:
+  name: Last Word
+  ingredients:
+    - Gin
+    - Green Chartreuse
+    - lime
+    - maraschino liquer
+  description: >
+    Invented during prohibition and forgotten after WWII, this cocktail was
+    rediscovered in 2004 by bartender Murray Stenson.
+
+negroni:
+  name: Negroni
+  ingredients:
+    - Gin
+    - Campari
+    - sweet vermouth
+  description: >
+    Allegedly invented in Florence, Italy in 1919, when Count Camillo Negroni
+    ordered an Americano with gin instead of soda water.

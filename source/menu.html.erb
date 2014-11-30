@@ -5,7 +5,7 @@ title: Cocktail Menu | EricLutley.com
 <div class="menu-container">
   <div id="menu">
     <h1>Cocktails</h1>
-    <% data.menu.cocktails.each do |drink| %>
+    <% cocktails_for(:winter).each do |drink| %>
       <div class="drink">
         <h2><%= drink.name %></h2>
         <ul class="ingredients">
