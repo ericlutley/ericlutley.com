@@ -8,7 +8,11 @@ title: Cocktail Menu | EricLutley.com
     <% data.menu.cocktails.each do |drink| %>
       <div class="drink">
         <h2><%= drink.name %></h2>
-        <p class="ingredients"><%= drink.ingredients.join ", " %></p>
+        <ul class="ingredients">
+          <% drink.ingredients.each do |item| %>
+            <li><%= item %></li>
+          <% end %>
+        </ul>
         <% if drink.description %>
           <p class="description"><%= drink.description %></p>
         <% end %>
